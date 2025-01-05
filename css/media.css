@@ -297,23 +297,24 @@
     flex-direction: column-reverse;
     gap: 20px;
   }
-  /* .home-text {
+  .home-text {
     max-width: 350px;
     width: 100%;
   }
   .home img {
-    max-width: 330px;
+    max-width: 350px;
     width: 100%;
   }
   .about img {
-    max-width: 335px;
+    max-width: 345px;
     width: 100%;
   }
-  .home-btn {
-    padding-block: 15px;
+  .about {
+    flex-direction: column;
+    gap: 30px;
   }
   .about-text {
     max-width: 350px;
     width: 100%;
-  } */
+  }
 }
