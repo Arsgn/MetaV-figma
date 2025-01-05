@@ -7,6 +7,10 @@
   color: #fff;
 }
 
+.burger-menu {
+  display: none;
+}
+
 h1 {
   font-family: Orbitron;
 }

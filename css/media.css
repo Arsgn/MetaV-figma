@@ -292,6 +292,18 @@
 }
 
 @media (max-width: 770px) {
+  .burger-menu {
+    display: flex;
+  }
+  .box-menu {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #fff;
+  }
+  .header nav {
+    display: none;
+  }
   .home {
     flex-direction: column;
     flex-direction: column-reverse;
