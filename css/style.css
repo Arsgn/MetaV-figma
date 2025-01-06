@@ -12,10 +12,12 @@
 }
 
 h1 {
+  font-size: clamp(1.313rem, 0.994rem + 1.59vw, 2.188rem);
   font-family: Orbitron;
 }
 
 h1 span {
+  font-size: clamp(1.313rem, 0.994rem + 1.59vw, 2.188rem);
   font-family: Orbitron;
 }
 
@@ -93,12 +95,12 @@ body {
 }
 
 .home-text h1 {
-  font-size: clamp(1.125rem, 0.511rem + 3.07vw, 2.813rem);
+  font-size: clamp(1.875rem, 1.534rem + 1.7vw, 2.813rem);
   padding-block: 10px;
 }
 
 .home-text h1 span {
-  font-size: clamp(1.25rem, 0.568rem + 3.41vw, 3.125rem);
+  font-size: clamp(2.188rem, 1.847rem + 1.7vw, 3.125rem);
   color: #851185;
 }
 
@@ -169,17 +171,17 @@ body {
 }
 
 .about-text h1 {
-  font-size: clamp(1.25rem, 0.909rem + 1.7vw, 2.188rem);
+  font-size: clamp(1.563rem, 1.335rem + 1.14vw, 2.188rem);
 }
 
 .about-text h1 span {
-  font-size: clamp(1.25rem, 0.909rem + 1.7vw, 2.188rem);
+  font-size: clamp(1.563rem, 1.335rem + 1.14vw, 2.188rem);
   color: #851185;
 }
 
 .about-text p {
   font-size: clamp(0.875rem, 0.83rem + 0.23vw, 1rem);
-  padding-block: 20px;
+  padding-block: 10px;
 }
 
 .about-text button {
@@ -375,7 +377,9 @@ body {
 .footer-text {
   display: flex;
   align-items: start;
-  gap: 100px;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding-block: 40px;
 }
 
 .footer-block ul li {
@@ -401,7 +405,8 @@ body {
 .footer {
   display: flex;
   align-items: start;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
 }
 
 .footer-box {
@@ -411,7 +416,7 @@ body {
 }
 
 .footer-main {
-  max-width: 450px;
+  max-width: 350px;
 }
 
 .footer-main h1 {
