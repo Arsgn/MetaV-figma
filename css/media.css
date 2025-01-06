@@ -322,6 +322,7 @@
     padding-block: none;
   }
   .home-text h1 {
+    padding-inline: 5px;
     text-align: center;
   }
   .home img {
