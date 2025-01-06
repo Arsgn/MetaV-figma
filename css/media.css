@@ -321,6 +321,9 @@
     width: 220px;
     padding-block: none;
   }
+  .home-text h1 {
+    text-align: center;
+  }
   .home img {
     max-width: 350px;
     width: 100%;
@@ -342,5 +345,18 @@
   }
   .home-btn {
     justify-content: center;
+  }
+  .footer-block {
+    width: 120px;
+  }
+  .footer-text {
+    padding-block: 25px;
+    gap: 20px;
+  }
+  .footer-block ul li {
+    line-height: 30px;
+  }
+  .footer-box {
+    padding-block: 5px;
   }
 }
