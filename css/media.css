@@ -390,7 +390,7 @@
     display: none;
   }
   .home-btn {
-    justify-content: center;
+    justify-content: start;
   }
   .footer-block {
     width: 120px;
