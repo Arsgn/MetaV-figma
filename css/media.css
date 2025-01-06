@@ -249,6 +249,15 @@
   .home-btn button {
     padding: 9px 19px;
   }
+  #about {
+    padding-block: 40px;
+  }
+  #home {
+    padding-block: 40px;
+  }
+  #work {
+    padding-block: 50px;
+  }
 }
 
 @media (max-width: 835px) {
