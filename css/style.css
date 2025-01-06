@@ -10,7 +10,9 @@
 .burger-menu {
   display: none;
 }
-
+.burger-menu ion-icon {
+  font-size: clamp(1.375rem, 1.115rem + 1.19vw, 1.688rem);
+}
 h1 {
   font-size: clamp(1.313rem, 0.994rem + 1.59vw, 2.188rem);
   font-family: Orbitron;

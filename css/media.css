@@ -334,7 +334,6 @@
 
 @media (max-width: 770px) {
   .work-block {
-    /* flex-wrap: nowrap; */
     justify-content: center;
     gap: none;
   }
