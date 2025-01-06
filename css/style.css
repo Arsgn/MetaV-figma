@@ -6,6 +6,41 @@
   list-style: none;
   color: #fff;
 }
+.home-btn button {
+  display: inline-block;
+  padding: 13px 35px;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  position: relative;
+  background-color: black;
+  cursor: pointer;
+  transition: 1.3s;
+  border: none;
+}
+.home-btn button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px;
+  padding: 2px;
+  background: linear-gradient(90deg, #ff0080, #0078ff);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.home-btn button:hover {
+  background: linear-gradient(90deg, #ff0080, #0078ff);
+  color: rgba(255, 255, 255, 1);
+}
+.home-btn button:hover:before {
+  background: linear-gradient(90deg, black, black);
+}
 
 .burger-menu {
   display: none;
@@ -108,7 +143,14 @@ body {
 
 .home-text h1 span {
   font-size: clamp(1.688rem, 1.165rem + 2.61vw, 3.125rem);
-  color: #851185;
+  font-family: Orbitron, sans-serif;
+  background: linear-gradient(
+    158.4deg,
+    rgb(209, 14, 209) 10.9%,
+    rgb(16, 163, 218) 88.221%
+  );
+  color: transparent;
+  background-clip: text;
 }
 
 .home-text p {
@@ -135,12 +177,12 @@ body {
   border: 1px solid #fff;
 }
 
-.home-btn button:hover {
+/* .home-btn button:hover {
   transform: scale(1.1);
   transition: 0.2s;
   cursor: pointer;
   background: #590d59;
-}
+} */
 
 .home-block {
   display: flex;
@@ -183,7 +225,14 @@ body {
 
 .about-text h1 span {
   font-size: clamp(1.438rem, 1.165rem + 1.36vw, 2.188rem);
-  color: #851185;
+  font-family: Orbitron, sans-serif;
+  background: linear-gradient(
+    158.4deg,
+    rgb(209, 14, 209) 10.9%,
+    rgb(16, 163, 218) 88.221%
+  );
+  color: transparent;
+  background-clip: text;
 }
 
 .about-text p {
@@ -201,12 +250,12 @@ body {
   margin-block: 20px;
 }
 
-.about-text button:hover {
+/* .about-text button:hover {
   transform: scale(1.1);
   transition: 0.2s;
   cursor: pointer;
   background: #590d59;
-}
+} */
 
 .about img {
   max-width: 500px;
@@ -235,7 +284,14 @@ body {
 
 .work-main h1 span {
   font-size: clamp(1.25rem, 0.909rem + 1.7vw, 2.188rem);
-  color: #851185;
+  font-family: Orbitron, sans-serif;
+  background: linear-gradient(
+    158.4deg,
+    rgb(209, 14, 209) 10.9%,
+    rgb(16, 163, 218) 88.221%
+  );
+  color: transparent;
+  background-clip: text;
 }
 
 .work-main p {
@@ -254,7 +310,7 @@ body {
 .work-box {
   max-width: 374px;
   width: 100%;
-  max-height: 410px;
+  max-height: 420px;
   height: 100%;
   padding: 20px;
   background: #090823;
@@ -293,7 +349,7 @@ body {
   gap: 10px;
 }
 
-.work-btn button {
+/* .home-btn button {
   padding: 5px;
   background: none;
   font-size: 14px;
@@ -302,14 +358,14 @@ body {
   border: 1px solid #fff;
   color: #fff;
   margin-block: 10px;
-}
+} */
 
-.work-btn button:hover {
+/* .work-btn button:hover {
   transform: scale(1.1);
   transition: 0.2s;
   cursor: pointer;
   background: #590d59;
-}
+} */
 
 #latest {
   padding-block: 0;
@@ -383,6 +439,17 @@ body {
   padding: 0 0 0 0;
 }
 
+.theme h1 span {
+  font-family: Orbitron, sans-serif;
+  background: linear-gradient(
+    158.4deg,
+    rgb(209, 14, 209) 10.9%,
+    rgb(16, 163, 218) 88.221%
+  );
+  color: transparent;
+  background-clip: text;
+}
+
 .theme {
   display: flex;
   justify-content: center;
@@ -440,6 +507,13 @@ body {
 
 .footer-main h1 {
   font-size: clamp(1.438rem, 1.165rem + 1.36vw, 2.188rem);
-  color: #851185;
+  font-family: Orbitron, sans-serif;
+  background: linear-gradient(
+    158.4deg,
+    rgb(209, 14, 209) 10.9%,
+    rgb(16, 163, 218) 88.221%
+  );
+  color: transparent;
+  background-clip: text;
   padding-bottom: 20px;
 }
